@@ -6,7 +6,8 @@
 
 function one(val){
 
-    console.log(val+"hello iam one function...")
+    //console.log(val()+"hello iam one function...")
+    console.log(val());
 
 
 }
@@ -15,6 +16,6 @@ function two(){
     return "hell i am second function"
 }
 
-let twofun=two()
 
-one(twofun)
+
+one(two)
