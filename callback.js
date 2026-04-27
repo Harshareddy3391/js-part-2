@@ -3,7 +3,7 @@
 
 //callback function or high order function...
 
-
+/*
 function one(val){
 
     //console.log(val()+"hello iam one function...")
@@ -18,4 +18,21 @@ function two(){
 
 
 
-one(two)
+one(two)*/
+
+
+
+
+function name(sname){
+    console.log(sname() + "  harsha")
+}
+
+
+function sname(){
+
+    return "thota"
+
+}
+
+
+name(sname)
