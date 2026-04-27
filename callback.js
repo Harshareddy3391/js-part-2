@@ -4,12 +4,17 @@
 //callback function or high order function...
 
 
-function one(){
+function one(val){
 
-    console.log("hello iam one function...")
+    console.log(val()+"hello iam one function...")
 
 
 }
 
+function two(){
+    return "hell i am second function"
+}
 
-one()
+let twofun=two()
+
+one(twofun)
