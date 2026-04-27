@@ -6,7 +6,7 @@
 
 function one(val){
 
-    console.log(val()+"hello iam one function...")
+    console.log(val+"hello iam one function...")
 
 
 }
