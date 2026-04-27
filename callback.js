@@ -6,5 +6,10 @@
 
 function one(){
 
-    
+    console.log("hello iam one function...")
+
+
 }
+
+
+one()
